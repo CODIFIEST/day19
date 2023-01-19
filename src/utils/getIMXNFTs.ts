@@ -9,6 +9,7 @@ async function getIMXNFTs(address: string): Promise<NFT[]> {
     const IMXdomainNFTs:NFT[]=[];
 
     IMXNFTs.data.result.forEach(nft=>{
+        if(!nft.name) return;
         const eachNFT:NFT ={
             title:nft.name,
             description:nft.collection.name,

@@ -13,7 +13,7 @@ import { NFTType, type NFT } from "../domain/nft";
         id: 1,
         method: "qn_fetchNFTs",
         params: {
-            wallet: "DcTmx4VLcf5euAB17nynax7g55xuB3XKBDyz1pudMcjW",
+            wallet: address,
             omitFields: ["provenance", "traits"],
             page: 1,
             perPage: 10,

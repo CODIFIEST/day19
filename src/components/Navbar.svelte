@@ -1,7 +1,8 @@
 <script lang="ts">
     import { account } from "../stores/account";
-import ConnectWallet from "./buttons/ConnectWallet.svelte";
-    import TrimAcconut from "../utils/TrimmedAcconut.svelte";
+// import ConnectWallet from "./buttons/ConnectMetamaskWallet.svelte";
+import TrimAcconut from "../utils/TrimAcconut.svelte";
+    import ConnectMetamaskWallet from "./buttons/ConnectWallet.svelte";
 
     
 
@@ -10,9 +11,9 @@ import ConnectWallet from "./buttons/ConnectWallet.svelte";
     <div><h1>Wallet Peeper</h1></div>
     <div class="topnav-right">
         {#if $account}
-        <TrimAcconut />
+     <TrimAcconut />
         {:else}
-        <ConnectWallet />
+        <ConnectMetamaskWallet />
         {/if}
     </div>
 </div>
