@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import type { NFT } from "../domain/nft";
 import { account } from "../stores/account";
-import { nfts } from "../stores/nfts";
+import nfts from "../stores/nfts";
 import getNFTsFromAddress from "./getNFTsFromAddress";
 
 type EthWindow = {

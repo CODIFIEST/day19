@@ -1,3 +1,13 @@
+### Day 21:
+HOMEWORK:
+- Connect Phantom Wallet
+- Fetch Solana NFTs
+- Fetch Loopring NFTs
+- Add "Install" links to all wallets if they are not installed, ro Connect to them if they are installed on click.
+- Start stylign teh page to be professional - create a Hero / landing page that lokos good, with a good call to action!
+- add tests for your string methods in the utils folder. TruncateDescription, parseImageURL. 
+
+
 # Day 19 - NFT Viewer
 
 I've received an assignment from my boss to create an app that can view NFTs across multiple chains. It should have responsive design (work on mobile as well as tablet and desktop views), it should use modern design patterns, and should have a code architecture that is easy to use, follow, and add to.

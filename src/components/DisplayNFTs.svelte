@@ -1,11 +1,13 @@
 <script lang="ts">
     import type { NFT } from "../domain/nft";
-    import { nfts } from "../stores/nfts";
+    import nfts from "../stores/nfts";
     import Nft from "./NFT.svelte";
+ 
 </script>
 
 <div class="NFT-Container">
     {#if $nfts}
+    <!-- {console.log("from displayNFTs.svelte ", $nfts)} -->
         <div class="nft-display">
             <div class="nft-row">
                 {#each $nfts as nft}

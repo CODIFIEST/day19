@@ -1,9 +1,9 @@
 import { ethers } from "ethers";
 import type { NFT } from "../domain/nft";
 import { account } from "../stores/account";
-import { nfts } from "../stores/nfts";
 import getNFTsFromAddress from "./getNFTsFromAddress";
 import detectGamestopProvider from "@gamestopnft/detect-gamestop-provider";
+import nfts from "../stores/nfts";
 
 type EthWindow = {
     ethereum: any; //### TODO- get rid of the any type
